@@ -22,36 +22,53 @@ Automatización, visibilidad y seguridad real.
 1️⃣ Crear el archivo
 
 sudo nano /usr/local/sbin/SegAvanzada.sh
+
 ✔ Pega todo el contenido del script
+
 ✔ Guarda con CTRL + O
+
 ✔ Sal con CTRL + X
 
 2️⃣ Dar permisos correctos (OBLIGATORIO)
 
 sudo chmod 750 /usr/local/sbin/SegAvanzada.sh
+
 3️⃣ Asignar propietario (recomendado)
 
 sudo chown root:root /usr/local/sbin/SegAvanzada.sh
+
 4️⃣ Verificar que existe y es ejecutable
 
 ls -l /usr/local/sbin/SegAvanzada.sh
+
 ✔ Debe verse algo parecido a:
+
 -rwxr-x--- 1 root root ... SegAvanzada.sh
+
 5️⃣ Ejecutar el script manualmente
 
 sudo /usr/local/sbin/SegAvanzada.sh
+
 6️⃣ Comprobar que se generó el informe
 
 ls -l ~/auditoria_seguridad_avanzada_*.log
+
 7️⃣ Verificar envío por Telegram y correo
 
 ✔ Telegram: debe llegarte el archivo
+
 ✔ Email: revisa la bandeja del destinatario configurado
+
 ✔ Si no llega el correo, prueba:
+
 which msmtp
+
 8️⃣ (Opcional) Ejecutarlo automáticamente con cron
 
 ✔ Editar cron de root:
+
 sudo crontab -e
+
 ✔ Añadir esta línea:
+
 0 3 * * 0 /usr/local/sbin/SegAvanzada.sh
