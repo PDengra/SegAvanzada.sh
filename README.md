@@ -1,0 +1,1 @@
+# SegAvanzada.sh
