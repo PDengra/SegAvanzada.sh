@@ -1,4 +1,4 @@
-🔐 Auditoría de Seguridad Avanzada en Linux (Bash)
+3ª Parte. 🔐 Auditoría de Seguridad Avanzada en Linux (Bash)
 
 He desarrollado un script de auditoría de seguridad avanzada que automatiza la detección de riesgos críticos en sistemas Linux:
 
