@@ -6,8 +6,11 @@ He desarrollado un script de auditoría de seguridad avanzada que automatiza la 
 ✔ Integridad de binarios
 
 ✔ Usuarios y privilegios anómalos
+
 ✔ Backdoors y conexiones activas
+
 ✔ Hardening del kernel
+
 ✔ Análisis de logs y persistencia
 
 El script genera un informe detallado y lo notifica automáticamente por correo y Telegram, facilitando la monitorización continua y la respuesta temprana ante incidentes.
