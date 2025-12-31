@@ -2,7 +2,9 @@
 
 He desarrollado un script de auditoría de seguridad avanzada que automatiza la detección de riesgos críticos en sistemas Linux:
 ✔ Rootkits
+
 ✔ Integridad de binarios
+
 ✔ Usuarios y privilegios anómalos
 ✔ Backdoors y conexiones activas
 ✔ Hardening del kernel
